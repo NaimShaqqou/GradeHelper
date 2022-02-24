@@ -1,0 +1,29 @@
+{
+  "name": "gradehelper",
+  "version": "1.0.0",
+  "description": "Grade Calculator build using a MERN stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaimShaqqou/GradeHelper.git"
+  },
+  "author": "Naim Shaqqou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NaimShaqqou/GradeHelper/issues"
+  },
+  "homepage": "https://github.com/NaimShaqqou/GradeHelper#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
